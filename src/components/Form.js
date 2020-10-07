@@ -37,10 +37,7 @@ class Form extends Component {
         // to prevent page reload on form submit
         event.preventDefault();
 
-        /*const submission = {
-            title: this.state.title,
-            URL: this.state.URL
-        }; */      
+         
             //TODO - Logic for calling props to handle submission and setting state changes
         this.props.handleSubmit(this.state)
         
